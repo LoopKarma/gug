@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        },
+        "classmap": ["src"]
+    },
+    "require": {
+        "symfony/console": "^4.3",
+        "ext-json": "*"
+    }
+}
